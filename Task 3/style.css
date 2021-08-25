@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.purple {
+    background: rgb(199, 191, 230);
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    margin-top: 30px;
+  }
+
+  .violet {
+    background: rgb(199, 191, 230);
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+  }
+
+.input-fields{
+    margin: 2px auto;
+    max-width: 500px;
+    
+}
+
+.input-fields input,textarea{
+    width: 100%;
+    height: 40px;
+    margin: 2px;
+}
+
+input:focus,textarea:focus {
+    outline: none;
+    border:2px solid rgb(68, 218, 255);
+
+}
+
+.hero{
+    background-color: rgb(199, 191, 230);
+    text-align: center;
+    padding: 10px;
+    color:white;
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #ffff;
+}
+
+.main h2{
+    width: max-content;
+    color: #ffff;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 500;
+}
+  
+h2 {
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+    font-family: poppins;
+}
+
+.btn{
+    text-align: center;
+    margin: 30px;
+}
+button{
+    width: 150px;
+    background-color: rgb(200, 100, 100);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}

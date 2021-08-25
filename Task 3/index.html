@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- CSS Styling -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Resume Generator</title>
+</head>
+<body>
+        <form class="input-fields">
+            <div class="act-heading purple">
+                <h1 style="text-align: center;">Resume Generator</h1>
+            </div>
+            <h4 style="text-align: left;">Enter Your Name : </h4>
+            <input type="text" name="name" placeholder="Name" />
+
+            <h4 style="text-align: left;">Title : </h4>
+            <input type="text" name="title" placeholder="Eg. Front end developer" />
+
+            <h4 style="text-align: left;">Work Experience : </h4>
+            <textarea name="workexp" placeholder="Work Experience"></textarea>
+
+            <h4 style="text-align: left;">Academic Details : </h4>
+            <textarea name="academics" placeholder="Academic Details"></textarea>
+
+            <h4 style="text-align: left;">Objective : </h4>
+            <input name="objective" placeholder="Objective" />
+
+            <h4 style="text-align: left;">Skills : </h4>
+            <textarea name="skills" placeholder="Skills" ></textarea>
+
+            <h4 style="text-align: left;">Projects : </h4>
+            <textarea name="projects" placeholder="Projects" ></textarea>
+
+            <h4 style="text-align: left;">Achievements : </h4>
+            <textarea name="achievements" placeholder="Achievements" ></textarea>
+
+            <h4 style="text-align: left;">Contact : </h4>
+            <textarea name="contact" placeholder="Contact" ></textarea>
+        </form>
+
+     <!-- resume preview -->
+    <div class="output">
+   
+    </div>  
+    <!-- button for toggle   -->
+   <div class="btn">
+        <button onclick="toggle()">Preview / Edit</button>
+   </div>
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
