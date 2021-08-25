@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(85, 85, 85);
+    font-family: "Poppins", sans-serif;
+  }
+
+.box {
+    background: #ffff;
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.header {
+    display: grid;
+  }
+
+.title {
+    font-weight: 500;
+    text-align: center;
+  }
+
+div.title {
+    text-align: center;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+  
+div.taskList {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.black {
+  background: rgb(0, 0, 0);
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.red {
+  background: rgb(220, 0, 0);
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.green {
+  background: rgb(67, 209, 1);
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li * {
+  float: left;
+}
+li, h3 {
+  clear:both;
+  list-style:none;
+}
+input, button {
+  outline: none;
+}
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 0px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  color: #333;
+}
+
+h3,
+label[for='new-task'] {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+input[type="text"]:focus {
+  color: #333;
+}
+
+label[for='new-task'] {
+  display: block;
+  margin: 0 0 20px;
+}
+input[type="text"] {
+  height: 30px;
+}
+input#new-task {
+  float: left;
+  width: 350px;
+}
+p > button:hover {
+  color: #0FC57C;
+}
+
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+li > input[type="checkbox"] {
+  margin: 0px 10px;
+  position: relative;
+  top: 0px;
+}
+li > label {
+  font-size: 18px;
+  width: 237px;
+  padding: 0 0 0 0px;
+}
+li >  input[type="text"] {
+  width: 226px;
+}
+li > .delete:hover {
+  color: #CF2323;
+}
+
+#completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}
+
+ul li input[type=text] {
+  display:none;
+}
+
+ul li.editMode input[type=text] {
+  display:block;
+}
+
+ul li.editMode label {
+  display:none;
+}
+
+@media only screen and (max-width:800px) {
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
